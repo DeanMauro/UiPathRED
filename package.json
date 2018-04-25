@@ -1,0 +1,32 @@
+{
+  "name": "uipath-maestro",
+  "version": "1.0.0",
+  "description": "NodeRED packaged with UiPath Orchestrator (& other) nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeanMauro/Maestro.git"
+  },
+  "keywords": [
+    "UiPath",
+    "Maestro",
+    "NodeRED",
+    "Orchestrator"
+  ],
+  "author": "Dean Mauro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeanMauro/Maestro/issues"
+  },
+  "homepage": "https://github.com/DeanMauro/Maestro#readme",
+  "dependencies" :
+    { "nodered": "latest",
+      "node-gyp": "latest",
+      "node-red-admin": "latest",
+      "node-red-dashboard": "latest",
+      "orchestrator" : "git://github.com/DeanMauro/Orchestrator-RED"
+    }
+}
