@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/DeanMauro/Maestro#readme",
   "dependencies" :
-    { "nodered": "latest",
+    { "node-red": "latest",
       "node-gyp": "latest",
       "node-red-admin": "latest",
       "node-red-dashboard": "latest",
