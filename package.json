@@ -28,5 +28,6 @@
       "node-red-admin": "latest",
       "node-red-dashboard": "latest",
       "orchestrator" : "git://github.com/DeanMauro/Orchestrator-RED"
-    }
+    },
+  "bin" : { "node-red" : "./node_modules/.bin/node-red.cmd" }
 }
