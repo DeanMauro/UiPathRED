@@ -2,10 +2,10 @@
 NodeRED packaged with UiPath Orchestrator nodes
 
 ## To Install:
-Run Install.ps1 in Powershell.
+Double-click or run Install.cmd
 
 ## To Run Node-RED:
-Double-click or run Run.lnk.
+Double-click or run Run.lnk
 
 ### Notes:
 The following will be installed in addition to Node-RED:
