@@ -2,10 +2,10 @@
 NodeRED packaged with UiPath Orchestrator nodes
 
 ## To Install:
-Double-click or run Install.cmd
+Run Install.cmd as Administrator
 
 ## To Run Node-RED:
-Double-click or run Run.lnk
+Double-click or run Run.cmd
 
 ### Notes:
 The following will be installed in addition to Node-RED:
