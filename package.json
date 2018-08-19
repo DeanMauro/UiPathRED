@@ -4,7 +4,8 @@
   "description": "NodeRED packaged with UiPath Orchestrator (& other) nodes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/node-red -u ."
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,10 @@
     "node-gyp": "latest",
     "node-red-admin": "latest",
     "node-red-dashboard": "latest",
+    "node-red-contrib-uibuilder": "latest",
     "orchestrator": "git://github.com/DeanMauro/Orchestrator-RED"
   },
   "bin": {
-    "node-red": "./node_modules/.bin/node-red.cmd"
+    "node-red": "./node_modules/node-red/red.js"
   }
 }
