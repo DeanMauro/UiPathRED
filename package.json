@@ -29,7 +29,7 @@
     "node-red-admin": "latest",
     "node-red-dashboard": "latest",
     "node-red-contrib-uibuilder": "latest",
-    "orchestrator": "git://github.com/DeanMauro/Orchestrator-RED"
+    "@uipath/node-red-contrib-uipath-orchestrator": "latest"
   },
   "bin": {
     "node-red": "./node_modules/node-red/red.js"
