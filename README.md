@@ -9,7 +9,7 @@ Double-click or run Run.cmd
 
 ## Ubuntu
 ### To Install:
-Run ubuntuInstall.cmd
+Run ubuntuInstall.sh
 ### To Run:
 `node-red`
 
